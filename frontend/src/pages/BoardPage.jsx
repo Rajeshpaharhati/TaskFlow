@@ -187,7 +187,7 @@ function BoardPage() {
             setLoading(true);
             setError("");
 
-            const response = await getBoard(6);
+            const response = await getBoard(2);
 
             if (!response.success) {
                 throw new Error(
